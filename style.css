@@ -1,0 +1,49 @@
+.upper-style{
+
+    background-color: rgb(240, 255, 240);
+    margin-bottom: 50px;
+}
+
+.illustration-part{
+
+   padding: 50px 0;
+
+}
+
+.box{
+    background-color: rgb(248, 255, 251);
+    text-align: center;
+}
+
+.box-style{
+
+    box-shadow: 10px 10px 40px lightgray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.topic-test-student{
+
+    padding: 50px 0;
+}
+
+.courses-align-color{
+
+    text-align: center;
+    color: rgb(65, 57, 96);
+    margin-bottom: 50px;
+}
+
+.card{
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px lightgray;
+   
+}
+
+.card-footer{
+
+    background-color: white;
+    border-top: none;
+}
