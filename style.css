@@ -105,15 +105,10 @@ ul li a{
 
 
 
-.testimonial-middle{
 
-    height: 100px;
-    width: 700px;
-    margin: 0 auto;
-}
 
 .testimonial-middle img{
-    padding-right: 50px;
+   
     height: 120px;
     width: 150px;
 }
@@ -132,7 +127,8 @@ ul li a{
 
     background-color: #282531;
     color: white;
-    padding-top: 50px;
+    padding: 50px;
+    margin-bottom: 150px;
 }
 
 .footer h5{
@@ -142,9 +138,85 @@ ul li a{
 footer{
     text-align: center;
     padding: 20px 0;
+
 }
 
 a{
     color: white;
     padding: 10px;
 }
+
+.extra-part h2{
+    text-align: center;
+    color: lightslategray;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+
+    border: 1px solid gray;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+.registration-page{
+
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding-left: 50px;
+    width: 500px;
+    margin-right: 10px;
+}
+
+.regi{
+
+    text-align: center;
+}
+
+.gender{
+
+    padding-left: 100px;
+}
+
+.language{
+
+    padding-left: 100px;
+}
+
+.submit{
+
+    padding: 10px 100px;
+    margin-left: 50px;
+}
+
+.comment{
+
+    margin-left: 50px;
+}
+
+.circle{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    animation: move 5s linear 1s infinite alternate;
+
+    
+}
+
+
+@keyframes move {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:300px; top:0px;}
+    50%  {background-color:blue; left:300px; top:-200px;}
+    75%  {background-color:green; left:0px; top:-200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
